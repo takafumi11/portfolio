@@ -1,0 +1,116 @@
+@media screen and (max-width:1100px){
+    .header h1{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:992px){
+    .header h1{
+        font-size: 60px;        
+        top: 45%;
+        left: 40%;
+    }
+    .header nav {       
+        top: 10%;
+        left: 15%;
+      }
+      .header nav ul li {        
+        margin: 0 10%;
+      }
+      #About {       
+        height: 400px;
+      }
+      #Servise h3{
+          font-size: 25px;
+      }
+      #Blog img {      
+        height: 200px;
+      }
+      .open #nav-toggle  {
+    color: red;
+    }
+.open {
+    overflow: scroll;
+  }
+  
+  .open #gloval-nav {
+    visibility: visible;
+    opacity: 1;
+    /* height: 1000px; */
+  }
+  
+  .open #gloval-nav li {
+    opacity: 1;
+    
+            transform: translateY(0px);
+    
+    transition: opacity .9s ease, -webkit-transform 1s ease;
+    transition: transform 1s ease, opacity .9s ease;
+    transition: transform 1s ease, opacity .9s ease, -webkit-transform 1s ease;
+  }
+  .arrow{
+    display: inline-block;
+    width:7px;
+    height: 7px;
+    margin: 0 10px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 10px;
+  }
+  .open .arrow{
+      transform: rotate(225deg);
+      border-bottom: 1px solid #8F8F8F;
+      border-right: 1px solid #8F8F8F;
+      top: 15px;
+
+  }
+  .kame{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+}
+@media screen and (max-width:768px){
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+    .header h1{
+        font-size: 50px;      
+    }
+    #Servise h3{
+        font-size: 50px;
+    }
+    #Blog img {      
+    height: 200px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .header h1{
+        font-size: 40px;        
+        top: 45%;
+        left: 40%;
+    }
+    .header nav {       
+        top: 10%;
+        left: 15%;
+      }
+      .header nav ul li {        
+        margin: 0 3%;
+      }
+      #About {       
+        height: 600px;
+      }
+      #Servise h3{
+          font-size: 25px;
+      }
+      #Blog img {      
+        height: auto;
+        width: 400px;
+      }
+      .aaa{
+       display: none;
+      }
+}
